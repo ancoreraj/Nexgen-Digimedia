@@ -21,6 +21,7 @@ app.post('/', (req,res)=>{
         res.redirect('/')
 
     }catch(err){
+        console.log(err)
 
     }
     
@@ -30,7 +31,7 @@ app.post('/', (req,res)=>{
 
 
 const PORT = 3000 || process.env.PORT
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`Listening to port ${PORT}`)
 
 })
