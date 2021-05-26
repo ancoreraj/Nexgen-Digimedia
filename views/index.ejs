@@ -18,6 +18,8 @@
 
 
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styleviewport.css">
+
     <title>Nexgen Digimedia</title>
 </head>
 
@@ -57,6 +59,7 @@
 
 
                 </div>
+
                 <div class="black-body">
                     <p class="black-body-top">
                         The Next-Gen Digital Media Agency
@@ -182,13 +185,16 @@
 
                 <div class="contact-form">
                     <h2>Contact Us</h2>
-                    <form action="#">
+                    <form action="/" method="POST">
                         <div class="contact-form-input">
-                            <input type="text" name="name" id="" placeholder="Name" required autocomplete="off">
-                            <input type="email" name="email" id="" placeholder="Emai id" required autocomplete="off">
-                            <input type="number" name="phoneNumber" id="" placeholder="Phone No." required
+                            <input type="text" name="name" id="" placeholder="Name" required
                                 autocomplete="off">
-                            <input type="text" name="message" id="" placeholder="Message" required autocomplete="off">
+                            <input type="email" name="email" id="" placeholder="Emai id" required
+                                autocomplete="off">
+                            <input type="number" name="phoneNumber" id=""
+                                placeholder="Phone No." required autocomplete="off">
+                            <textarea type="text" name="message" id="" placeholder="Message" required
+                                autocomplete="off"></textarea>
                             <button type="submit" class="black-body-button">Connect</button>
 
                         </div>
@@ -197,23 +203,23 @@
                 <div class="footer">
                     Copyright &#169; All rights reserved.
                 </div>
-                
-                
+
+
             </div>
-            
-            
+
+
         </div>
-        
+
 
 
     </div>
 
-    
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
 
-    <script>
+    <!-- <script>
         new fullpage('#fullpage', {
             //options here
             autoScrolling: true,
@@ -223,7 +229,7 @@
 
         //methods
         // fullpage_api.setAllowScrolling(false);
-    </script>
+    </script> -->
 
 
 </body>

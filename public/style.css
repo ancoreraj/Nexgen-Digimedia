@@ -171,7 +171,7 @@ body {
     margin-bottom: 25px;
 }
 
-.contact-form input{
+.contact-form input,textarea{
     background: none;
     border: none;
     border-bottom: 2px solid white;
@@ -183,6 +183,9 @@ body {
     margin-top: 15px;
 }
 
+.contact-form textarea::placeholder {
+   color: white;
+}
 .contact-form input::placeholder {
    color: white;
 }
