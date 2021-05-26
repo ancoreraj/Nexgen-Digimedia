@@ -1,0 +1,42 @@
+@media only screen and (max-width:700px) {
+    .logo{
+        margin-left: 40px;
+    }
+    .black-body-top{
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    .black-body-center p{
+        font-size: 58px;
+    }
+    .black-body-bottom{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    .black-body-button{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .purple-top{
+        font-size: 26px;
+    }
+    .purple-center{
+        font-size: 48px;
+    }
+    .screen-common-inner{
+        width: 90%;
+    }
+    .screen-common-top{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .screen-common-bottom{
+        font-size: 16px;
+        width: 90%;
+    }
+    .contact-form input{
+        width: 70vw;
+    }
+    
+
+}

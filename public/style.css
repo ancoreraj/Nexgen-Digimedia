@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: calc(0.75em + 1vmin) !important;
+  }
+.black{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.black-top{
+    width: 100%;
+    display: flex;
+    padding-top: 27px;
+
+}
+.logo{
+    margin-left: 250px;
+
+}
+.logo-name{
+    color: #F3D0F9;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    margin-left: 16px;
+    text-decoration: none !important;
+}
+.black-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.black-body-top{
+    color: #DD7FED;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.black-body-center p{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+.black-body-center .and{
+    font-family: 'Caveat', cursive;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+}
+.black-body-bottom{
+    font-size: 24px;
+    color: #DD7FED;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.black-body-button{
+    border-radius: 52px;
+    background: linear-gradient(92.55deg, #7F00FF 11.65%, #E100FF 100%);
+    padding: 8px 24px 8px 24px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+
+
+.purple{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(92.55deg, #7F00FF 11.65%, #E100FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple-top{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.purple-center{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.screen-common{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.screen-common-inner{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.screen-common-top{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+.screen-common-bottom{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    width: 80%;
+}
+
+.greencyan{
+    /* background-color: #4ACFAC; */
+    background: linear-gradient(92.55deg, #4ACFAC 11.65%, #02ffbb 100%);
+}
+.orange{
+    /* background-color: #FFAF5F; */
+    background: linear-gradient(92.55deg, #f58974 11.65%, #FFAF5F 100%);
+}
+.red{
+    
+    /* background-color: #7E8CE0; */
+    background: linear-gradient(92.55deg, #5667c9 11.65%, #7E8CE0 100%);
+}
+.blue{
+    /* background-color: #FFA48E; */
+    background: linear-gradient(92.55deg, #FFA48E  11.65%, #f08296 100%);
+    
+}
+.grey{
+    /* background-color: #565656; */
+    background: linear-gradient(92.55deg, #565656  11.65%, #888888 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+}
+
+.contact-form{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding: 8px 8px;
+    width: 25vw;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contact-form input::placeholder {
+   color: white;
+}
+
+.contact-form-input{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 60px 0px; */
+    background-color: black;
+    height: 20vh;
+}
