@@ -15,7 +15,7 @@ const transport = nodemailer.createTransport({
 const sendEmail = (name, email, phoneNo, message) => {
   transport.sendMail({
     from: user,
-    to: user,
+    to: "shreevardhan139@gmail.com",
     subject: "Digimedia Contact",
     html: `<h4>Name : ${name}.</h4>
            <h4>Emai Id: ${email}.</h4>

@@ -121,10 +121,20 @@ body {
     text-align: left;
 }
 .screen-common-bottom{
-    color: white;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
     width: 80%;
+}
+
+.screen-common-bottom ul{
+    margin-left: 32px;
+}
+.screen-common-bottom li{
+    padding: 2px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+
 }
 
 .greencyan{
@@ -198,4 +208,13 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: black;
+}
+
+.alert{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    color: tomato;
+    font-family: 'Manrope', sans-serif;
 }
