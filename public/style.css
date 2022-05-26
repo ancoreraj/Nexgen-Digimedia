@@ -198,6 +198,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+.orsimplydo{
+    margin: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+.contact-logo{
+    margin: 26;
+}
+
+.contact-form svg{
+    margin: 0 16px 0 16px;
+}
+.contact-form a{
+    color: white;
+}
 .footer{
     font-size: 16px;
     font-family: 'Manrope', sans-serif;
